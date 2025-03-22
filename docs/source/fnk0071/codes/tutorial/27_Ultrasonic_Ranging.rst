@@ -105,7 +105,7 @@ Open MakeCode first. Import the .hex file. The path is as below:
 +-----------+----------------------------------------------+-----------------------+
 | File type | Path                                         | File name             |
 +-----------+----------------------------------------------+-----------------------+
-| HEX file  | ../Projects/BlockCode/27.1_UltrasonicRanging | UltrasonicRanging.hex |
+| HEX file  | ../Projects/BlockCode/23.1_UltrasonicRanging | UltrasonicRanging.hex |
 +-----------+----------------------------------------------+-----------------------+
 
 After importing successfully, the code is shown as below:
@@ -159,7 +159,7 @@ Open the .py file with Mu. Code, the path is as below:
 +-------------+-----------------------------------------------+----------------------+
 | File type   | Path                                          | File name            |
 +-------------+-----------------------------------------------+----------------------+
-| Python file | ../Projects/PythonCode/27.1_UltrasonicRanging | UltrasonicRanging.py |
+| Python file | ../Projects/PythonCode/23.1_UltrasonicRanging | UltrasonicRanging.py |
 +-------------+-----------------------------------------------+----------------------+
 
 After the code is loaded, as shown below, import the "I2C_LCD1602_Class.py" file to micro:bit before downloading the code.
@@ -171,7 +171,7 @@ After importing the I2C_LCD1602_Class.py file, check the connection of the circu
 
 The following is the program code:
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/27.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/23.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
     :lines: 1-27
@@ -181,7 +181,7 @@ The custom getdistance() function is used to get the distance between the obstac
 
 The unit of return value is CM.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/27.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/23.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
     :lines: 4-19
@@ -189,7 +189,7 @@ The unit of return value is CM.
 
 Create the object lcd of I2C_LCD1602 class, input I2C address 0x27, call getdistance() function, get the distance of the obstacle to the ultrasonic module, assign it to the distance variable, and then display the value of the distance variable on the LCD.
 
-.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/27.1_UltrasonicRanging/UltrasonicRanging.py
+.. literalinclude:: ../../../freenove_Kit/Projects/PythonCode/23.1_UltrasonicRanging/UltrasonicRanging.py
     :linenos: 
     :language: python
     :lines: 21-27
